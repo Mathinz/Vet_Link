@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="intent_lat_lng_available">lat_lng_available</string>
+
+    <string name="intent_lattitude">Latitude</string>
+
+    <string name="intent_longitude">Longitude</string>
+
+    <string name="intent_lat">lat</string>
+
+    <string name="intent_lng">lng</string>
+
+    <string name="intent_name">name</string>
+
+    <string name="intent_place_id">place_id</string>
+
+    <string name="intent_no">no</string>
+
+</resources>

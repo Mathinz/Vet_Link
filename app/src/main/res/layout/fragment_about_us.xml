@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="@string/dot"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Welcome to Please Don't Pat Me Australia's mobile app.While our goal here at Please Don't Pat Me Australia is to promote widespread understanding and respect for all Australian assistance dog teams, we have left the scope of Tap2Review open to benefit not only our core members, but also any person with a disability anywhere in the English speaking world."
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="@string/dot"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Please Don't Pat Me Australia will offer information and possibly even a new perspective on the subject of assistance dogs for you, whether you have never before heard of an assistance dog, are curious about the law regarding assistance dog teams in your business, have a friend or family member with an assistance dog, train assistance dogs, are partnered with an assistance dog or simply want to learn more about assistance dog teams,"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="@string/dot"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Please Don't Pat Me Australia also offers resources and assistance for handlers and businesses or organisations. We offer businesses the educational and awareness raising opportunities for your staff and we offer handlers direct advocacy to resolve access challenges and if required, assistance to file a disability discrimination complaint with the relevant authorities."
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

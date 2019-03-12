@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/comman_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <Button
+            android:id="@+id/btn_write_review_lable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Report"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="20">
+
+
+                <EditText
+                    android:id="@+id/edt_review"
+                    android:layout_width="match_parent"
+                    android:layout_height="116dp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_weight="3"
+                    android:background="@drawable/edt_bg"
+                    android:gravity="start"
+                    android:hint="Write description...."
+                    android:maxLines="5"
+                    android:padding="10sp" />
+
+                <LinearLayout
+                    android:id="@+id/lin_place_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30sp"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/img_place_pic1"
+                        android:layout_width="70sp"
+                        android:layout_height="70sp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/no_profile_img"
+                        android:visibility="gone"/>
+
+                    <ImageView
+                        android:id="@+id/img_place_pic2"
+                        android:layout_width="70sp"
+                        android:layout_height="70sp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/no_profile_img"
+                        android:visibility="gone"/>
+
+
+                    <ImageView
+                        android:id="@+id/img_place_pic3"
+                        android:layout_width="70sp"
+                        android:layout_height="70sp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/no_profile_img"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_attach_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:background="#d9dad8"
+                    android:text="Attach Photo"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_submit_review"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="Submit"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
+

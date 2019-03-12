@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:weightSum="10">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow_line" />
+
+    <EditText
+        android:id="@+id/edt_searcher"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:background="@drawable/edt_bg"
+        android:gravity="center|start"
+        android:hint="Keywords (word1, word2 ...)"
+        android:maxLines="1"
+        android:paddingLeft="20sp"
+        android:scrollbars="none" />
+
+
+    <Button
+        android:id="@+id/btn_submit_search"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="30sp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:text="Search Symptons"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>

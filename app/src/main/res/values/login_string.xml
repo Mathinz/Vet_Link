@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_user_login">login</string>
+    <string name="login_user_blind">blind</string>
+    <string name="login_login_user_name">login_user_name</string>
+
+    <string name="login_fb_google_user_name">name</string>
+
+    <string name="login_fb_google_user_id">id</string>
+
+    <string name="login_login_user_profile_pic">login_user_profile_pic</string>
+
+    <string name="login_login_type">login_type</string>
+
+    <string name="login_fb_login"> fb_login</string>
+
+    <string name="login_google_login">google_login</string>
+    <string name="login_with_google">Login With Google</string>
+    <string name="login_with_facebook">Login With Facebook</string>
+    <string name="email_address">User ID...</string>
+    <string name="password">Password...</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="guest">Guest</string>
+    <string name="login">Login</string>
+    <string name="password_reset">password_reset</string>
+
+
+</resources>

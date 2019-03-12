@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "503771782817",
+    "project_id": "vetlink-181712"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503771782817:android:27be692455ba0740",
+        "android_client_info": {
+          "package_name": "com.vet.link"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503771782817-d79ie85lrpfhqeqt483356qi3pjs7b53.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vet.link",
+            "certificate_hash": "7fe7cafbeb6312b439cf2b89601362a2eaad4b22"
+          }
+        },
+        {
+          "client_id": "503771782817-6p4sqjt2nv3i4tnk5ehgmvtuhf8dfgqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vet.link",
+            "certificate_hash": "ffe102dc2679329c760dad301db5e44d3f1e6e1a"
+          }
+        },
+        {
+          "client_id": "503771782817-tl16s2makk8k4rn3jeg9iu5565d5alkd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vet.link",
+            "certificate_hash": "987688ad8ad20246fb2fc6c7b893b3643d30948b"
+          }
+        },
+        {
+          "client_id": "503771782817-obhjrhif1oabfkd3652qunhj8djotq10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1fGhO6t1DAmCPEsey0lT7FUvL6OY_b2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

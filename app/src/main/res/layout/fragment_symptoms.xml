@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="749dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/shadow_line" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="0sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edt_bg"
+            android:gravity="center|start"
+            android:hint="Keywords..."
+            android:maxLines="1"
+            android:paddingLeft="20sp"
+            android:scrollbars="none" />
+
+
+        <Button
+            android:id="@+id/btn_submit_complain"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Search Symptoms"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="511dp">
+
+            <com.victor.loading.rotate.RotateLoading
+                android:id="@+id/symptoms_rotateloading"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                app:loading_color="@color/colorPrimary"
+                app:loading_width="4dp" />
+
+            <TextView
+                android:id="@+id/tv_symptoms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Sorry no Symptoms found.."
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/symptoms_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

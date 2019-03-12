@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="15">
+
+    <include layout="@layout/comman_toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <fragment
+            android:id="@+id/map_review_screen"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <ImageView
+            android:id="@+id/img_fav"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="7sp"
+            android:src="@drawable/heart_gray" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/reviews_lable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="....."
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="10">
+
+        <ListView
+            android:id="@+id/listview_after_search_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/progressBar_listview_footer"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5sp"
+            android:clickable="false"
+            android:divider="@null"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:id="@+id/txt_no_data_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="No Data Found."
+            android:textColor="@color/colorPrimary"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_listview_footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_write_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10sp"
+            android:src="@drawable/floting_btn"
+            app:layout_anchorGravity="bottom|right|end" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_no_internet">No Internet Connection Available.</string>
+    <string name="error_ok">Ok</string>
+    <string name="error_something_wrong">Something Went Wrong Please try After Sometime.</string>
+    <string name="error_on_gps_and_internet">Please Enable GPS And Internet Connection.</string>
+    <string name="error_fetch_location">Fetching Your Location...</string>
+    <string name="error_search_something">Please Search Something.</string>
+    <string name="error_no_data_regarding_this_req">No Data Regarding This request.</string>
+    <string name="error_no_review_for_this_place">No Review Are There For This Place.</string>
+    <string name="error_fetch_reviews">Fetching Reviews...</string>
+    <string name="error_submit_review">Submit Your Review...</string>
+    <string name="error_review_submitted_successfully">Your Review is Submitted Successfully.</string>
+    <string name="error_enable_gps">Please Enable Your GPS.</string>
+    <string name="error_dialog_cancel">Cancel</string>
+    <string name="error_search_data">Search</string>
+    <string name="error_load_more_data">Load More Data Enable Internet Connection.</string>
+    <string name="error_no_review_given_by_user">No review was gave by this user.</string>
+    <string name="error_show_more">Please Dont Pat Me Australia can also offer owner trainers advocacy assistance when dealing with access challenges. Handlers who are with an assistance dog organisation should approach their organisation for support in the first instance. The volunteers at Please Dont Pat Me Australia are experienced with dealing with access challenges and are usually able to resolve them with education. When education fails a Please Dont Pat Me Australia volunteer disability discrimination advocate will help you with the process of lodging a disability discrimination complaint with the relevant authorities. If you have experienced discrimination because you use an assistance dog please fill out the form below. This service is only available to handlers located in Australia.
+</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">VetLink</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="review_zero">This place is very bad.</string>
+    <string name="review_one">Place is bad, no facility are available for.</string>
+
+    <string name="review_two">This place is Average.</string>
+    <string name="review_three">This Place is not bad but need to improve facility.</string>
+
+    <string name="account">Home</string>
+    <string name="review_four">This Place is Good.</string>
+    <string name="review_five">This Place is Very Good.</string>
+
+    <string name="google_map_id" templateMergeStrategy="preserve" translatable="false">AIzaSyD16MtOZ8hjYKVDztZWC-53mCwcviW3ljo</string>
+
+    <string name="facebook_app_id">104794686935729</string>
+
+    <string name="share_play_store_link">chnage with play store link</string>
+
+    <string name="dot">\u2022</string>
+
+    <string name="complain_mail_forword">test@gmail.com</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_visualize">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+
+    <string name="text">Keywords:</string>
+    <!--<string name="text">Description:</string>-->
+
+</resources>

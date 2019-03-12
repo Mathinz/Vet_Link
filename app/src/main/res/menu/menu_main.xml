@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".activity.SplashActivity">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        app:showAsAction="always" />
+
+
+
+
+  <!--  <item
+        android:id="@+id/map_normal"
+        android:showAsAction="never"
+        android:title="Normal Map"/>
+
+    <item
+        android:id="@+id/map_terrin"
+        android:showAsAction="never"
+        android:title="Terrain Map"/>
+
+    <item
+        android:id="@+id/map_hybrid"
+        android:showAsAction="never"
+        android:title="Hybrid Map"/>
+
+    <item
+        android:id="@+id/map_satellite"
+        android:showAsAction="never"
+        android:title="Satellite Map"/>-->
+
+</menu>

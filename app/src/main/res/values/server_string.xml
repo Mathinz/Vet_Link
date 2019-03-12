@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="server_field_name">name</string>
+
+    <string name="server_field_id">id</string>
+
+    <string name="server_field_location">location</string>
+
+    <string name="server_field_distance">distance</string>
+
+    <string name="server_field_categories">categories</string>
+
+    <string name="server_field_icon">icon</string>
+
+    <string name="server_field_prefix">prefix</string>
+
+    <string name="server_field_suffix">suffix</string>
+
+    <string name="server_field_lat">lat</string>
+
+    <string name="server_field_lng">lng</string>
+
+    <string name="server_field_response">response</string>
+
+    <string name="server_field_venues">venues</string>
+
+    <string name="server_url_fetch_review">http://www.pleasedontpatme.org/tap2review/tap2review_fetch_reviews.php</string>
+
+    <string name="server_url_add_review">"http://www.pleasedontpatme.org/tap2review/tap2review_add_reviews.php"</string>
+
+    <string name="server_field_static_page_law">http://www.pleasedontpatme.org/relevant-laws/federal-law/#</string>
+
+    <string name="server_field_static_page_break_law">http://www.pleasedontpatme.org/relevant-laws/</string>
+
+    <string name="server_field_foursquare_prifix_url">https://api.foursquare.com/v2/venues/search?ll=</string>
+
+    <string name="server_field_reviews">reviews</string>
+
+    <string name="server_field_place_id">place_id</string>
+
+    <string name="server_field_user_name">user_name</string>
+
+    <string name="server_field_rating">rating</string>
+
+    <string name="server_field_lng_wheelchair_accessible">wheelchair_accessible</string>
+
+    <string name="server_field_service_dog_friendly">service_dog_friendly</string>
+
+    <string name="server_field_date">date</string>
+
+    <string name="server_field_time">time</string>
+
+    <string name="server_field_user_profile_img">user_profile_img</string>
+
+    <string name="server_field_list_size">list_size</string>
+
+    <string name="server_field_totalCount">totalCount</string>
+
+</resources>

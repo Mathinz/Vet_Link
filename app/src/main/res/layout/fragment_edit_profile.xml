@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.8"
+                    android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5sp">
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:id="@+id/img_circular_profile"
+                            android:layout_width="130sp"
+                            android:layout_height="130sp"
+                            android:src="@drawable/no_profile_img"
+                            app:civ_border_color="#E5EEF0"
+                            app:civ_border_width="0dp"
+                            app:civ_shadow="true"
+                            app:civ_shadow_radius="5" />
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:id="@+id/img_circular_addprofile"
+                            android:layout_width="50sp"
+                            android:layout_height="50sp"
+                            android:layout_gravity="end|bottom"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:src="@drawable/addpic"
+                            app:civ_border_color="#ffffff"
+                            app:civ_border_width="2dp"
+                            app:civ_shadow="true"
+                            app:civ_shadow_radius="10" />
+
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#55000000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.2"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15sp"
+                    android:weightSum="6">
+
+                    <EditText
+                        android:id="@+id/txt_user_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="5"
+                        android:background="@android:color/transparent"
+                        android:editable="false"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp"
+                        android:ellipsize="end"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/btn_editname"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_edit" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#55000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_changes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/btn_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:padding="5sp"
+                    android:text="Save changes"
+                    android:textAllCaps="false"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/colorPrimary" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            app:layout_anchor="@id/lin"
+            app:layout_anchorGravity="bottom|right|end"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

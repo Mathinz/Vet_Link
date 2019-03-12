@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/bottom_menu2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item
+        android:id="@+id/action_item1"
+        android:icon="@drawable/ic_account_box"
+        android:title="@string/account"
+        android:layout_width="match_parent" />
+
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@drawable/ic_search"
+        android:title="Search"/>
+    <item
+        android:id="@+id/action_item3"
+        android:icon="@drawable/ic_event_note"
+        android:title="Report"/>
+    <item
+        android:id="@+id/action_item5"
+        android:icon="@drawable/ic_my_report"
+        android:title="My Report"/>
+
+    <item
+        android:id="@+id/action_item4"
+        android:icon="@drawable/ic_place"
+        android:title="Visualize"/>
+
+
+
+</menu>

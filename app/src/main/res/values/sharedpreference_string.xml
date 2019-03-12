@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sharedpreference_check_speak_request">check_speak_request</string>
+    <string name="sharedpreference_speak_blind">speak_blind</string>
+    <string name="sharedpreference_speak_no_connection">speak_no_connection</string>
+    <string name="sharedpreference_speak_name">speak_name</string>
+    <string name="sharedpreference_no_speak">no_speak</string>
+    <string name="sharedpreference_speak_search_data">speak_search_data</string>
+    <string name="sharedpreference_speak_search">speak_search</string>
+    <string name="sharedpreference_speak_address">speak_address</string>
+    <string name="sharedpreference_speak_search_data_right_code">speak_search_data_right_code</string>
+    <string name="sharedpreference_search_query">search_query</string>
+    <string name="sharedpreference_speak_review">speak_review</string>
+    <string name="sharedpreference_speak_no_review">speak_no_review</string>
+    <string name="sharedpreference_speak_review_submited">speak_review_submited</string>
+    <string name="sharedpreference_speak_wheelchair">speak_wheelchair</string>
+    <string name="sharedpreference_speak_assistance_friendly">speak_assistance_friendly</string>
+    <string name="sharedpreference_speak_rating">speak_rating</string>
+    <string name="sharedpreference_speak_rating_wrong">speak_rating_wrong</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt2speech_r_u_blind">do you need voice over activated, please say yes or no after this beep.</string>
+    <string name="txt2speech_no_internet">there is no internet connection, please turn on data connection.</string>
+    <string name="txt2speech_speak_name">Please Speak Your Name For Login Process after this beep.</string>
+    <string name="txt2speech_fetch_location">Please Wait fetching your current location.</string>
+    <string name="txt2speech_on_gps_and_internet">Please Turn On Your Data Connection And GPS.</string>
+    <string name="txt2speech_no_data_regarding_this_req">No Data Regarding this, please speak proper name.</string>
+    <string name="txt2speech_speak_something">please speak something for search after the beep.</string>
+    <string name="txt2speech_search_after">Search Again after this beep.</string>
+    <string name="txt2speech_List_comp">List Is complete, for search again speak something  after this beep.</string>
+    <string name="txt2speech_no_review">No Review are there for this place, for write review speak yes or for back speak back</string>
+    <string name="txt2speech_review_submited">Your review is submited for search something speak yes or for close app speak exit.</string>
+    <string name="txt2speech_wheelchair_accessible">wheelchair accessible on this place please speak yes or no after this beep</string>
+    <string name="txt2speech_dog_assitance">dog assistance is friendly please speak yes or no after this beep</string>
+    <string name="txt2speech_give_rating">give rating to this place out of five after this beep.</string>
+    <string name="txt2speech_give_review_only_in_five">Please give review only in out of five after this beep</string>
+
+    <string name="txt2speech_listen_another_review">for listen another speak next or for search again speak back and for write review speak yes after this beep.</string>
+    <string name="txt2speech_listen_review_or_next"> for listen review speak yes or listen another place speak next after this beep.</string>
+    <string name="txt2speech_search_yes_or_no">say yes or no for continue after this beep.</string>
+
+</resources>
